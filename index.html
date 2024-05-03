@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos adicionales */
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .content .content-text {
+            flex: 1;
+            margin-right: 20px; /* Espacio entre el contenido y la imagen */
+        }
+
+        .content .content-text h1,
+        .content .content-text p,
+        .content .content-text .btn {
+            color: white; /* Cambio de color de texto */
+        }
+
+        .logo img {
+            max-width: 40%; /* Reducción del tamaño del logo */
+            height: auto;
+        }
+
+        .content .imagen img {
+            max-width: 100%;
+            height: auto;
+            display: block; /* Para que la imagen no tenga espacios en blanco debajo */
+        }
+    </style>
+</head>
+<body class="blue-bg">
+    <header class="navbar">
+        <div class="logo">
+            <img src="Images/ImgLogo.jpeg">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Acerca_de.html">Acerca de</a></li>
+                <li><a href="Consejos.html">Consejos</a></li>
+                <li><a href="Portafolio.html">Portafolio</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <div class="content-text">
+                <h1>Tu sonrisa es tu presentación...</h1>
+                <p>En esta clínica dental, nos dedicamos a cuidar tu salud bucal y a devolverte la sonrisa que siempre has deseado.</p>
+                <a href="https://1drv.ms/f/c/31b490a0f8da508d/EulB5QmNQl5JksLLSmOEIc0Bo_Zd9gp-PwguV_S1JO2C6w?e=yJ8YxY" class="btn" target="_blank">Descargar juego</a>
+            </div>
+            <div class="imagen">
+                <img src="https://cdn-icons-png.flaticon.com/512/4100/4100178.png">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+

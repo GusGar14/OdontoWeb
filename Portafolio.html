@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos adicionales */
+        .content {
+            text-align: center; /* Centrar contenido */
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap; /* Permite que los elementos se ajusten a la línea */
+        }
+
+        .services img {
+            max-width: 20%; /* Reducción del tamaño a la mitad */
+            height: auto;
+            margin: 5px; /* Espacio entre las imágenes */
+        }
+
+        .services p {
+            width: 10%; /* Anchura igual a la de la imagen */
+            margin: 10px;
+        }
+    </style>
+</head>
+<body class="white-bg">
+    <header class="navbar">
+        <div class="logo">
+            <img src="Images/ImgLogo.jpeg">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Acerca_de.html">Acerca de</a></li>
+                <li><a href="Consejos.html">Consejos</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <h1>Servicios</h1>
+            <div class="services">
+                <img src="Images/ImgPed.jpeg" alt="Consultas pediátricas">
+                <p>Consultas Pediátricas</p>
+                <img src="Images/ImgExt.jpeg" alt="Extracciones">
+                <p>Extracciones</p>
+                <img src="Images/ImgRemo.jpeg" alt="Prótesis Total">
+                <p>Prótesis Removible</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos adicionales */
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .content form {
+            flex: 1;
+            margin-right: 20px; /* Espacio entre el formulario y la imagen */
+        }
+
+        .imagen {
+            flex: 1;
+        }
+
+        .imagen img {
+            max-width: 100%;
+            height: auto;
+            display: block; /* Para que la imagen no tenga espacios en blanco debajo */
+        }
+    </style>
+</head>
+<body class="light-pink-bg">
+    <header class="navbar">
+        <div class="logo">
+            <img src="Images/ImgLogo.jpeg">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Acerca_de.html">Acerca de</a></li>
+                <li><a href="Consejos.html">Consejos</a></li>
+                <li><a href="Portafolio.html">Portafolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <form action="#">
+                <h1>Pongámonos en contacto:</h1>
+                <h2>Citas al: 7222798513</h2>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="celular">Celular:</label>
+                <input type="tel" id="celular" name="celular" required>
+                <label for="motivo">Motivo:</label>
+                <input type="text" id="motivo" name="motivo" required>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+            <div class="imagen">
+                <img src="https://cdn-icons-png.flaticon.com/512/9726/9726794.png">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
